@@ -45,6 +45,8 @@ public abstract class BaseLocationProviderActivity extends BaseActivity {
     protected abstract void onLocationUpdated(Location location);
 
     @Override
+
+    
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
